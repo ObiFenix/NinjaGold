@@ -17,25 +17,35 @@ h3 {
 h4 {
   margin-top: 1rem;
 }
+
 .timer { margin-left: 2rem; color: silver; }
 .brand-logo { color: #d8cab8cc; font-family: 'Fredoka One', cursive; }
 .brand-logo span {  color: #f5f5f5 !important; }
 .brand-logo span:hover { color: #e6be8ad4 !important;  }
-
+/* .container { padding: 0 4rem; } */
 .activities { color: rgb(255,190,59); }
 
 .red { color: red; }
 
-.score-img { width: 60px; height: 60px; }
+/* .score-img { width: 60px; height: 60px; } */
+.score-img {
+    margin-top: -1rem;
+    margin-bottom: 1rem;
+    padding: .25rem;
+    width: 60px;
+    height: 60px;
+}
 
 img{
-    width: 250px;
-    height: 190px;
+    width: 100%;
+    height: 180px;
     position: center; }
 
 .anyClass {
   height:150px;
   overflow-y: scroll; }
+::-webkit-scrollbar { width: 12px; }
+::-webkit-scrollbar-track { display: none; }
 
 .btn {
     float: left;

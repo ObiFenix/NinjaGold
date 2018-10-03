@@ -2,12 +2,10 @@
 <div class="container">
     <hr>
     <h1 class="text-center justify-content-center brand-logo">Ninja <span>Gold</span></h1>
-    <hr>
     <div class="row">
         <img src="/assets/gold.gif" class="score-img" alt="gold">
         <h3><b style="margin: 3rem .5rem -3rem 1rem;"> x </b> <%= session[:gold_count] =%></h3>
     </div>
-    <hr>
     <div class="row">
         <div class="col-md-3 col-sm-6 border border-warning">
             <form action="/process" method="POST">
@@ -17,7 +15,6 @@
                 <p>(Earn 10-20 gold)</p>
                 <button type="submit" name="gold" class="btn btn-outline-warning" value="farm">Find Gold!</button>
             </form>
-            <hr>
         </div>
         <div class="col-md-3 col-sm-6 border border-warning">
             <form action="/process" method="POST">
@@ -27,7 +24,6 @@
                 <p>(Earn 5-10 gold)</p>
                 <button type="submit" name="gold" class="btn btn-outline-warning" value="cave">Find Gold!</button>
             </form>
-            <hr>
         </div>
         <div class="col-md-3 col-sm-6 border border-warning">
             <form action="/process" method="POST">
@@ -37,7 +33,6 @@
                 <p>(Earn 2-5 gold)</p>
                 <button type="submit" name="gold" class="btn btn-outline-warning" value="house">Find Gold!</button>
             </form>
-            <hr>
         </div>
         <div class="col-md-3 col-sm-6 border border-warning">
             <form action="/process" method="POST">
@@ -47,12 +42,11 @@
                 <p>(Earn/takes 0-50 gold)</p>
                 <button type="submit" name="gold" class="btn btn-outline-warning" value="casino">Find Gold!</button>
             </form>
-            <hr>
         </div>
     </div>
     <hr>
 
-    <div class="container">
+    <div class="container" style="padding:0">
         <hr style="background-color:gray;">
         <h4 class="activities"><strong>Game Activities</strong></h4>
 
